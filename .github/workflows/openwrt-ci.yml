@@ -26,6 +26,13 @@ jobs:
 
     steps:
 
+      - name: 自定义插件主题。
+        run: |
+          cd package
+          mkdir openwrt-packages
+          cd openwrt-packages
+          git clone https://github.com/trojan-gfw/openwrt-trojan.git
+          
       - name: Checkout
         uses: actions/checkout@master
         with:
