@@ -166,8 +166,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-attendedsysupgrade=y
           CONFIG_PACKAGE_luci-app-ddns=y
           CONFIG_PACKAGE_luci-app-multiwan=y
-	  CONFIG_PACKAGE_luci-app-openwrt-trojan=y
-	  CONFIG_PACKAGE_openwrt-trojan=y
+          CONFIG_PACKAGE_luci-app-openwrt-trojan=y
+          CONFIG_PACKAGE_openwrt-trojan=y
           EOF
 
           # LuCI主题:
