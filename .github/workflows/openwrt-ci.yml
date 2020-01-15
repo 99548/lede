@@ -161,13 +161,13 @@ jobs:
           CONFIG_PACKAGE_luci-app-webadmin=y
           CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
-		      CONFIG_PACKAGE_luci-app-adblock=y
+          CONFIG_PACKAGE_luci-app-adblock=y
           CONFIG_PACKAGE_luci-app-aliddns=y
-		      CONFIG_PACKAGE_luci-app-attendedsysupgrade=y
-		      CONFIG_PACKAGE_luci-app-ddns=y
-		      CONFIG_PACKAGE_luci-app-multiwan=y
-		      CONFIG_PACKAGE_luci-app-openwrt-trojan=y
-          CONFIG_PACKAGE_openwrt-trojan=y
+          CONFIG_PACKAGE_luci-app-attendedsysupgrade=y
+          CONFIG_PACKAGE_luci-app-ddns=y
+          CONFIG_PACKAGE_luci-app-multiwan=y
+	  CONFIG_PACKAGE_luci-app-openwrt-trojan=y
+	  CONFIG_PACKAGE_openwrt-trojan=y
           EOF
 
           # LuCI主题:
